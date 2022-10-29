@@ -6,7 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador de cep</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .container {
+            max-width: 400px;
+            padding-top: 20px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p, h2, label {
+            color: #fff;
+        }
+
+        .btn {
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        body {
+            background-color: #56351E;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        body, html {
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
