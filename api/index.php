@@ -18,7 +18,7 @@
             <button type="submit" class="btn btn-primary">Buscar</button>
         </form>
         <?php
-        require_once('./curl.php');
+        require_once('curl.php');
         ?>
         <?php if(isset($_GET['cep']) && $_GET['cep']){ ?>
         <h2>Resultado da Pesquisa</h2>
